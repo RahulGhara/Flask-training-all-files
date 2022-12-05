@@ -1,6 +1,6 @@
 from database_11_11_22 import db
 
-
+#my_model
 class Developer(db.Model):
     __tablename__ = "developer"
     dev_name = db.Column(db.String(30))
